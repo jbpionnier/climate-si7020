@@ -37,7 +37,7 @@ climate.on('error', function(err) {
 
 ## Methods
 
-*  **`climate`.connect(interface[, csn])**
+*  **`climate`.use(interface[, csn])**
 Takes in the port bank that the module is connected to. Returns the Climate object.
 
 *  **`climate`.readTemperature([format,] callback(err, temp))**
